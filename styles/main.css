@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://i.imgur.com/OT0iHSb.gif?1);
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+h1 {
+    display: flex;
+    font-size: 100px;
+    text-shadow: 1px 1px lightgray;
+    font-style: italic;
+    color: greenyellow;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+
+.left {
+    display: flex;
+
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: flex-start;
+}
+
+.social {
+    color: rgb(185, 209, 9);
+}
+
+.aboutUs {
+    color: rgb(167, 10, 125);
+    text-shadow: 2px 2px white;
+}
+
+.center {
+    display: flex;
+
+}
+
+
+.fartButton{
+  
+    
+
+}
+
+
+.meter {}
+
+
+.table {}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.button {}
+
+.image {}
+
+.zappa {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    margin: 208px;
+}
