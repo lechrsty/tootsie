@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
     background-image: url(https://i.imgur.com/OT0iHSb.gif?1);
     background-size: cover;
     margin: 0 auto;
@@ -8,75 +6,182 @@ body {
 }
 
 h1 {
-    display: flex;
+
     font-size: 100px;
-    text-shadow: 1px 1px lightgray;
+    text-shadow: 1px 1px rgb(211, 211, 211);
     font-style: italic;
     color: greenyellow;
-    justify-content: space-around;
+   text-align: center;
 }
 
 main {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
 
 }
 
 .left {
-  
+    list-style: none;
+    display: inline-grid;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    border: 1px solid grey;
+    width: 550px;
+
+ 
 
 }
 
 .clock {
-    display: flex;
-    flex-direction: column;
+ 
     margin: 50px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .social {
-   
+    display: flex;
+    font-size: 55px;
     color: rgb(185, 209, 9);
+    
+    padding: 50px;
+    justify-content: center;
 }
 
+
+
+
 .aboutUs {
-    color: rgb(167, 10, 125);
-    text-shadow: 2px 2px white;
+    display: flex;
+    font-size: 42px;
+    margin-top: 25px;
+    justify-content: center;
+    color: rgb(177, 0, 0);
+    text-shadow: 5px 5px rgb(51, 0, 218);
 }
 
 .center {
-    display: flex;
-    
+    list-style: none;
+    display: inline-grid;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    border: 1px solid grey;
+    width: 800px;
 
 }
 
 
 .fartButton{
   
-    
+
 
 }
 
 
 .meter {}
 
+.table {
+   position: relative;
+   bottom: 0px;
+   color: #ff00bb;
+}
 
-.table {}
+table {
+
+    
+}
+
+
+table, tr, td {
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    margin: 5px;
+    border: 3px solid;
+    justify-content: space-evenly;
+   
+  }
+
+  tr {
+    color: rgb(177, 0, 0)
+  }
+
+  td {
+    color: rgb(105, 64, 240);
+  }
+  th {
+    color: white;
+  }
+
+.tableNames {
+
+}
 
 .right {
-    display: flex;
-    justify-content: flex-end;
+    list-style: none;
+    display: inline-grid;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    border: 1px solid grey;
+    width: 550px;
+
 
 }
 
 .button {
-    display: flex;
-    flex-direction: column;
+    
+
+height: 350px;
+
 }
 
-.image {}
+.textSpace {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+
+}
+
+
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.6;
+    color: #005108;
+}
+
+input, select, textarea:hover{
+    color: #ff00bb;
+    font-size: 95px;
+    width: 793px;
+    height: 300px;
+    border-radius: 300px;
+    opacity: 0.6;
+    background-color: rgb(0, 0, 0);
+}
+ .buttonSpace {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    right: 220px;
+    padding: 50px;
+    justify-content: center;
+
+ }
+
+.ralph {
+    position: absolute;
+    right: 15px;
+}
 
 .zappa {
-display: flex;
-height: 500px;
- margin-top: 200px;
+    display: flex;
+
+ margin-left: 156px;
+ margin-top: 300px;
+ align-items: flex-end;
+
+
    
 }
