@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brain Fart</title>
 </head>
+
 <body>
     <h1>Who Smelt it Delt it</h1>
     <main>
@@ -99,6 +100,7 @@
             <div class="zappa">
 
                 <img src="https://m.media-amazon.com/images/I/41yQOg3-cOL._AC_SY580_.jpg" alt="Frank Zappa on a toilet">
+
             </div>
 
         </section>
